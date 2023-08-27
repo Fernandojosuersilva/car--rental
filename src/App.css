@@ -324,7 +324,7 @@ body{
   justify-content: center;
   padding: 48px;
   margin-left: auto;
-  background-image: url(/assets/hero-bg.png);
+  background-image: url(/assets/herobg.png);
   background-repeat: no-repeat;
   background-size: 700px;
   background-position-x: right;
@@ -405,7 +405,7 @@ select{
     width: 338px;
     height: 650px;
     margin-top: -30px;
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(/assets/herobg.png);
   }
   .bookCar--container h3{
     display: flex;
@@ -863,7 +863,7 @@ select{
 .choose--section{
   font-family: 'Mulish', sans-serif;
   margin-top: 100px;
-  background-image: url('/assets/banner/tyres.jpg');
+  background-image: url('/assets/banner/tyresMark.jpg');
   background-repeat: no-repeat;
   background-size: 1000px 400px;
   backdrop-filter: blur(15px);
