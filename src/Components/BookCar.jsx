@@ -175,7 +175,7 @@ export default function BookCar(props){
 
       if(selectDropOfTime < selectPickUpTime){
         console.log('Drop off date cannot be before pickup date');
-        (<div>Drop-off date cannot be before pickup date.</div>)
+        (<div>Drop off date cannot be before pickup date.</div>)
 
         return;
       }
@@ -367,7 +367,7 @@ export default function BookCar(props){
               <span>
         
                 <div>
-                  <h6><MdLocationOn /> Drop-Off Date & Time</h6>
+                  <h6><MdLocationOn /> Drop Off Date & Time</h6>
                   <p>
                     {dropOfTime} /{" "}
                     <input type="time" className="input-time"></input>
@@ -389,7 +389,7 @@ export default function BookCar(props){
               <span>
                 <i className="fa-solid fa-calendar-days"></i>
                 <div>
-                  <h6><FaCalendarDay /> Drop-Off Location</h6>
+                  <h6><FaCalendarDay /> Drop Off Location</h6>
                   <p>{DropOfLocation}</p>
                 </div>
               </span>
