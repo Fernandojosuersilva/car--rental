@@ -21,10 +21,10 @@ export default function Contact(){
         
         if(emailIsValid && !fieldsFilled){
             setValidEmail(true)
-            setContactEmailSent('Email sent sucessfuly!')
+            setContactEmailSent('Message sent sucessfully!')
             
         }else if(emailIsValid && fieldsFilled){
-            setError("Please, fill all the fields.")
+            setError("Please, fill in all fields.")
             setContactEmailSent(false)
         }else{
             setError('Please enter a valid email address.');

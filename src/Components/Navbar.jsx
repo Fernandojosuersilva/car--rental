@@ -52,6 +52,7 @@ export default function Navbar(){
                         className="navbar--link--mobile"
                         onClick={closeMenu}
                         >
+                            
                             About
                         </Link>
                     ) : (

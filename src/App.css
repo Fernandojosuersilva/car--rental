@@ -105,6 +105,7 @@ body{
 .navbar--link{
   text-decoration: none;
   color: black;
+  padding: 5px;
 }
 .nav--btns--main{
   padding: 13px;
@@ -123,7 +124,6 @@ body{
     display: flex;
     background-color: transparent;
     font-family: 'Mulish', sans-serif;
-    /* position: relative; */
   }
   .brand{
     font-size: 22px;

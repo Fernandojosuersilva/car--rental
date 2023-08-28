@@ -61,7 +61,7 @@ export default function Footer(){
                     <h3>Subscription</h3>
                 {emailSent && (
                     <div className="email--sent--footer">
-                        Email sent sucessfuly!
+                        Email sent sucessfully!
                     </div>
                 )}
                 

@@ -86,7 +86,7 @@ export default function BookCar(props){
             setFormData({
               ...formData,
               success: null, 
-              error: 'Please, fill up all the fields',
+              error: 'Please, fill in all fields',
             });
         }else{
             setFormData({...formData, 
@@ -151,7 +151,7 @@ export default function BookCar(props){
         formData.city === "" || 
         formData.zipcode === ""){
 
-          setFormData({...formData, errorModal: 'Please, fill up all the fields.'})
+          setFormData({...formData, errorModal: 'Please, fill in all fields.'})
           console.log('getting error:', formData.errorModal)
 
         }else if(!isEmailValid){
