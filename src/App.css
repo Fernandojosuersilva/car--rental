@@ -195,8 +195,10 @@ body{
 
 
 /* Hero ------------- */
-
 .hero--container{
+  display: flex;
+}
+.hero--content{
   display: flex;
   height: 400px;
   position: absolute;
@@ -280,9 +282,14 @@ body{
   .hero--mercedes{
     display: none;
   }
-  .hero--container{
+  
+  .hero--content{
     display: flex;
-    margin-left: 160px;
+    margin-left: 160px
+  }
+  .plan--trip--hero{
+    text-align: center;
+    margin-left: -25px;
   }
   .plan--trip--text--hero{
     color: black;
@@ -293,7 +300,9 @@ body{
 
   .header--text--hero{
     font-size: 48px;
+    
   }
+  
   .header--paragraph--hero{
     display: flex;
     flex-wrap: wrap;
@@ -324,7 +333,7 @@ body{
   justify-content: center;
   padding: 48px;
   margin-left: auto;
-  background-image: url(/assets/herobg.png);
+  background-image: url(/assets/herobg.PNG);
   background-repeat: no-repeat;
   background-size: 700px;
   background-position-x: right;
@@ -383,10 +392,14 @@ label, input{
 
 select{
   width: 350px;
-  height: 40px;
+  padding: 10px;
   margin-bottom: 5px;
   font-family: 'Mulish', sans-serif;
   font-size: 16px;
+}
+.box--form input{
+  padding: 10px;
+  width: 180px;
 }
 
 /* BookCar Responsive --------- */
@@ -405,7 +418,7 @@ select{
     width: 338px;
     height: 650px;
     margin-top: -30px;
-    background-image: url(/assets/herobg.png);
+    background-image: url(/assets/herobg.PNG);
   }
   .bookCar--container h3{
     display: flex;
@@ -444,6 +457,9 @@ select{
     border-color: #f5c6cb;
     text-align: center;
     border: none;
+  }
+  .box--form input{
+    width: 120px;
   }
 }
 /* Modal ------------- */
@@ -863,7 +879,7 @@ select{
 .choose--section{
   font-family: 'Mulish', sans-serif;
   margin-top: 100px;
-  background-image: url('/assets/banner/tyresMark.jpg');
+  background-image: url('/assets/banner/markTyres.JPG');
   background-repeat: no-repeat;
   background-size: 1000px 400px;
   backdrop-filter: blur(15px);
@@ -1133,6 +1149,10 @@ footer{
   margin-bottom: 100px;
   padding: 20px;
 }
+.about--car--image{
+  display: flex;
+  justify-content: center;
+}
 .about--car--rental--image{
   width: 700px;
   height: 270px;
@@ -1171,7 +1191,7 @@ footer{
   font-family: 'Mulish', sans-serif;
 }
 .about--icons--icons{
-  font-size: 100px;
+  font-size: 90px;
   color: #DC3545;
 }
 .about--icons p{
@@ -1179,7 +1199,7 @@ footer{
 }
 .about--span{
   font-weight: 900;
-  font-size: 90px;
+  font-size: 70px;
   color: black;
 }
 .about--text--span{
@@ -1198,7 +1218,7 @@ footer{
     flex-direction: column;
   }
   .about--car--rental--image{
-    max-width: 380px;
+    max-width: 350px;
     max-height: 160px;
   }
   .about--icons{
@@ -1215,7 +1235,7 @@ footer{
   }
   .about--span{
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
     color: black;
     margin: 5px;
   }

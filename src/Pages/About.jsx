@@ -8,10 +8,12 @@ export default function About(){
     return(
         <section className="about--section">
             <div className="about--text">
-                <img src="./assets/aboutImg/about3.jpg"
-                alt="car rental image"
-                className="about--car--rental--image"
-                />
+                <div className="about--car--image">
+                    <img src="./assets/aboutImg/about3.jpg"
+                    alt="car rental image"
+                    className="about--car--rental--image"
+                    />
+                </div>
                 <div className="about--text--header">
                     <h3>About Our Company</h3>
                     <h2>You start the engine and your adventure

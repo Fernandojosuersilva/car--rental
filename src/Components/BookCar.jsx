@@ -138,7 +138,7 @@ export default function BookCar(props){
     //handle error/success messages (Booking done)
     function handleReserveModalButton(e){
         e.preventDefault();
-        
+
         const isEmailValid = /^\S+@\S+\.\S+$/.test(formData.email)
         setFormData(formData)
 
@@ -295,7 +295,7 @@ export default function BookCar(props){
                     </div>
 
                     
-                    <div className="dropOfTime">
+                    <div className="box--form dropOfTime">
                     <label htmlFor="dropoftime">
                         <FaCalendar className="iconFa"/>Drop of
                         <br />
