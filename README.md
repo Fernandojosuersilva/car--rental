@@ -66,3 +66,6 @@ This project is licensed under the MIT License.
 **Contact**
 
 Feel free to reach out to me via GitHub (@Fernandojosuersilva) if you have any questions or suggestions!
+
+**Live version**
+carrentalsimulator.netlify.app
