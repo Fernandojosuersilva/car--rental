@@ -1,7 +1,7 @@
 # Car Rental Website
 
 Welcome to the Car Rental Website project! This repository contains the source code for a web application that simulate users to rent cars online.
-(This is a project create to showcase React.Js skills)
+(This is a project created to showcase React.Js skills)
 
 ## Getting Started
 
