@@ -70,7 +70,9 @@ export default function Footer(){
                         {error}
                     </div>
                 )}
-                    <input 
+                    <input
+                    id="email"
+                    autoComplete="email" 
                     type='email'
                     value={footerSubs}
                     className="footer--input"

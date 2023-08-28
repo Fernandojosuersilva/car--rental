@@ -265,10 +265,14 @@ export default function BookCar(props){
                     </div>
                     <div className="box--form dropof">
                        
-                        <label>
+                        <label htmlFor="locationDropOff">
                             <MdLocationOn className="iconMd"/> Drop-of
                             <br />
-                            <select value={DropOfLocation} onChange={handleDropOff} className="location--DropOf">
+                            <select 
+                            id="locationDropOff"
+                            value={DropOfLocation} 
+                            onChange={handleDropOff} 
+                            className="location--DropOf">
                             <option>London</option>
                             <option>Paris</option>
                             <option>Barcelona</option>
@@ -451,6 +455,7 @@ export default function BookCar(props){
 
                 <input
                   id="phoneNumber"
+                  autoComplete="Phone"
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
@@ -486,6 +491,7 @@ export default function BookCar(props){
                 <input
                   name="email"
                   id="email"
+                  autoComplete="email"
                   value={formData.email}
                   onChange={handleInputChange}
                   type="email"
@@ -502,6 +508,7 @@ export default function BookCar(props){
                 <input
                   id="address"
                   name="address"
+                  autoComplete="address"
                   value={formData.address}
                   onChange={handleInputChange}
                   type="text"
